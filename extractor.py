@@ -1,5 +1,4 @@
 import re
-import networkx as nx
 import os
 import sys
 import yaml
