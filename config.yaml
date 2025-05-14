@@ -1,0 +1,42 @@
+branch_ops:
+- b
+- bl
+- blcc
+- blcs
+- ble.n
+- ble.w
+- bleq
+- blge
+- blls
+- bllt
+- blmi
+- blne
+- bls.n
+- bls.w
+- blt.n
+- blt.w
+- blvs
+- blx
+ignore_keys:
+- cb_address
+- op_asm
+- b_asm
+- op_comment
+- b_label
+- op_branch
+- op_opcode
+- b_opcode
+- section_name
+- cb_label
+- branch
+- code_blocks_count
+- total_cb_instructions_count
+- total_b_branches_count
+- op_asm_map_count_per_cb
+- op_asm_map_per_cb
+- op_asm_offset_region_per_cb
+- op_asm_map_count_per_section
+- op_asm_map_per_section
+- op_asm_offset_region_per_section
+select_sections:
+- .text
